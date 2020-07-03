@@ -1,0 +1,179 @@
+
+/*@keyframes jump {*/
+/*    15% {*/
+/*        width: 200px;*/
+/*        height: 200px;*/
+/*    }*/
+/*    40% {*/
+/*        width: 200px;*/
+/*        height: 190px;*/
+/*    }*/
+/*    100%  {*/
+/*        transform: translateY(500px);*/
+/*        width: 200px;*/
+/*        height: 155px;*/
+/*    }*/
+/*}*/
+/*!* animation - move face elements up and down *!*/
+/*@keyframes face-jump {*/
+/*    from {*/
+/*        transform: translateY(10px);*/
+/*    }*/
+/*    to {*/
+/*        transform: translateY(430px);*/
+/*    }*/
+/*}*/
+/*!* animation - move pupis up and down *!*/
+/*@keyframes pupils-move {*/
+/*    from {*/
+/*        transform: translateY(10px);*/
+/*    }*/
+/*    to {*/
+/*        transform: translateY(-5px);*/
+/*    }*/
+/*}*/
+/*!* animation - open mouth *!*/
+/*@keyframes mouth-open {*/
+/*    from {*/
+/*        box-shadow: -10px 0px 0px #051126;*/
+/*    }*/
+/*    to {*/
+/*        box-shadow: -30px 0px 0px #051126;*/
+/*    }*/
+/*}*/
+/*!* animation - move brows *!*/
+/*@keyframes left-brow-move {*/
+/*    from {*/
+/*        transform: rotateZ(20deg);*/
+/*    }*/
+/*    to {*/
+/*        transform: rotateZ(-20deg);*/
+/*    }*/
+/*}*/
+/*@keyframes right-brow-move {*/
+/*    from {*/
+/*        transform: rotateZ(-20deg);*/
+/*    }*/
+/*    to {*/
+/*        transform: rotateZ(20deg);*/
+/*    }*/
+/*}*/
+/*!* animation - shadow appearing and disappearing *!*/
+/*@keyframes shadow-appears {*/
+/*    10% {*/
+/*        opacity: 1;*/
+/*    }*/
+/*    30% {*/
+/*        opacity: 0.8;*/
+/*    }*/
+/*    50% {*/
+/*        opacity: 0.5;*/
+/*    }*/
+/*    80% {*/
+/*        opacity: 0.2;*/
+/*    }*/
+/*    100% {*/
+/*        opacity: 0;*/
+/*    }*/
+/*}*/
+/*!* pink ball *!*/
+/*#ball-base {*/
+/*    position: absolute;*/
+/*    top: 5px;*/
+/*    left: 50px;*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    border-radius: 50%;*/
+/*    background: radial-gradient(97.25% 97.25% at 52.29% 2.75%, #FF6E90 0%, #FF6E90 59.73%, #A25A69 100%);*/
+/*    border-style: solid;*/
+/*    border-width: 1px;*/
+/*    animation: jump 1.5s ease-in infinite alternate;*/
+/*}*/
+/*!* face elements *!*/
+/*#face {*/
+/*    animation: face-jump 1.5s ease-in infinite alternate;*/
+/*}*/
+/*.eyes {*/
+/*    position: absolute;*/
+/*    top: 50px;*/
+/*    border-radius: 50%;*/
+/*    border-style: solid;*/
+/*    border-width: 2px;*/
+/*    background: #F4E7E7;*/
+/*    animation: eyes-jump 1.5s ease infinite alternate;*/
+/*}*/
+/*#eye-left {*/
+/*    left: 240px;*/
+/*    height: 70px;*/
+/*    width: 70px;*/
+/*}*/
+/*#eye-right {*/
+/*    left: 300px;*/
+/*    height: 50px;*/
+/*    width: 50px;*/
+/*}*/
+/*.pupils {*/
+/*    position: absolute;*/
+/*    height: 20px;*/
+/*    width: 20px;*/
+/*    border-radius: 50%;*/
+/*    background: #051126;*/
+/*    animation: pupils-move 1.5s ease infinite alternate;*/
+/*}*/
+/*#pupil-left {*/
+/*    top:  70px;*/
+/*    left: 280px;*/
+/*}*/
+/*#pupil-right {*/
+/*    top:  60px;*/
+/*    left: 330px;*/
+/*}*/
+/*.brows {*/
+/*    position: absolute;*/
+/*    top: 30px;*/
+/*    height: 10px;*/
+/*    width: 50px;*/
+/*    border-radius: 20%;*/
+/*    background: #051126;*/
+/*}*/
+/*#brow-left {*/
+/*    left: 240px;*/
+/*    transform: skewY(-30deg);*/
+/*    animation: left-brow-move 1.5s ease-in-out infinite alternate;*/
+/*}*/
+/*#brow-right {*/
+/*    left: 320px;*/
+/*    transform: skewY(30deg);*/
+/*    animation: right-brow-move 1.5s ease-in-out infinite alternate;*/
+/*}*/
+/*#mouth {*/
+/*    position: absolute;*/
+/*    top: 100px;*/
+/*    left: 300px;*/
+/*    height: 50px;*/
+/*    width: 50px;*/
+/*    border-radius: 50%;*/
+/*    background: transparent;*/
+/*    box-shadow: -10px 0px 0px #051126;*/
+/*    transform: rotateZ(-110deg);*/
+/*    animation: mouth-open 1.5s ease infinite alternate;*/
+/*}*/
+/*!* floor *!*/
+/*#land {*/
+/*    position:absolute;*/
+/*    height: 50%;*/
+/*    width: 100%;*/
+/*    background: #468D96;*/
+/*}*/
+/*!* shadow *!*/
+/*#shadow {*/
+/*    position: absolute;*/
+/*    top: 650px;*/
+/*    left: 50px;*/
+/*    height: 100px;*/
+/*    width: 200px;*/
+/*    border-radius: 50%;*/
+/*    background: radial-gradient(50% 50% at 50% 50%, rgba(35, 29, 29, 0.36) 0%, rgba(36, 33, 33, 0) 100%);*/
+/*    animation: shadow-appears 1.5s ease infinite alternate-reverse ;*/
+/*}*/
+
